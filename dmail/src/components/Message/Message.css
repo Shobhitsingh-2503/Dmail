@@ -1,0 +1,54 @@
+#content{
+    margin: 0.3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border: black solid 1px;
+    width: 1050px;
+    padding: 0.5%;
+    padding-left:1% ;
+    height: fit-content;
+    border-radius: 10px;
+}
+#content > h4{
+    width: 30%;
+}
+#adrs{
+    border: black solid 1px;
+    border-radius:20px ;
+    padding: 1%;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.link{
+    text-decoration: none;
+    /* transition: 1000s; */
+    border: none;
+    background-color: transparent;
+    color: blue;
+    font-style: oblique;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.light{
+    font-weight: lighter;
+    font-style: italic;
+}
+#del{
+    font-size: x-large;
+    margin-right: 1%;
+    transition: 300ms;
+}
+#del:hover{
+    color: red;
+    cursor: pointer;
+}
+#imp{
+    margin-right: 1%;
+}
+#imp:hover{
+    cursor: pointer;
+}

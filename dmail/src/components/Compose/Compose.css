@@ -1,0 +1,15 @@
+#composeBody{
+    padding: 1%;
+}
+input[type=text],[type=url] {
+    width: 480px;
+}
+textarea{
+    width: 480px;
+    height:200px
+}
+#sendMailBtn{
+    border: black solid 1px;
+    border-radius: 20px;
+    padding: 1%;
+}

@@ -1,0 +1,19 @@
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4%;
+}
+#cnct{
+    width: fit-content;
+    padding: 2%;
+    border-radius: 30px;
+    background-color: transparent;
+    border: black solid 2px;
+    transition: 500ms;
+}
+#cnct:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,85 @@
+body{
+  overflow-y: hidden;
+}
+#nav{
+  margin: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+  border-bottom: black solid 1px;
+}
+#account{
+  width: fit-content;
+  padding: 0.5%;
+  border: black solid 1px;
+  border-radius: 20px;
+}
+#main{
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  align-items: flex-start;
+  margin-bottom: 2%;
+}
+#left-side{
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* border-right: black solid 1px; */
+  width: 10%;
+  /* height: 500px; */
+}
+.compose{
+  margin-bottom:5%;
+  background-color: transparent;
+  border: 1.5px solid black;
+  border-radius:20px ;
+  padding: 10%;
+  transition: 500ms;
+}
+#compose:hover{
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+.listItems{
+  margin-bottom: 5%;
+  background-color: transparent;
+  border: 1.5px solid black;
+  transition: 500ms;
+  border-radius: 20px;
+  padding: 10%;
+  width: 100%;
+}
+.listItems:hover{
+  cursor: pointer;
+}
+#right-side{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  border-radius: 20px;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  width: 85%;
+  height: 460px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#sendBtn{
+  color: black;
+  font-weight: light;
+  transition:300ms ;
+}
+#inboxBtn{
+  color: black;
+  font-weight: lighter;
+  transition: 300ms;
+}
+#popup-2{
+  width:500px;
+}
