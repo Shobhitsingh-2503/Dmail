@@ -11,6 +11,9 @@
 ### Decentralized Mailing Service (Dmail)
 Dmail, a decentralized mailing service with a simpla and elegant UI, that leverages wallet addresses as email addresses for sending and receiving mail, ensuring enhanced security and privacy. Users can compose emails and attach links, with messages needing to be downloaded for reading. This mechanism ensures that all communications are securely encrypted. Dmail efficiently categorizes emails into sent and inbox folders, with an additional feature to mark important emails, saving them in a dedicated section. Users can easily delete emails from any section, enhancing management efficiency.
 
+*FUNCTIONALITIES*
+![*FUNCTIONALITIES*](https://ik.imagekit.io/tttjlp0fj/Screenshot%202024-07-17%20171506.png)
+
 **Tech Stack:**
 - **Hardhat:** For development and testing of smart contracts.
 - **Ethers.js:** To interact with the Ethereum blockchain.
